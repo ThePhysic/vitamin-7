@@ -1,0 +1,17 @@
+/* Full page styling for container */
+.container {
+    min-height: 100vh; /* Makes the container take up the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Dark mode styling */
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
